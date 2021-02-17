@@ -1,0 +1,88 @@
+body{
+	background: #010101;
+	font-family: 'Poppins', sans-serif;
+}
+html,body{
+	scroll-behavior: smooth;
+}
+
+
+
+/*hero*/
+.hero .slider h6{
+	font-family: 'Poppins', sans-serif;
+	height: 24px;
+	letter-spacing: 1px;
+	color: #F7F7F7D1;
+}
+.hero .slider hr, .hero .slider2 hr, .hero .slider3 hr{
+	height: 1px;
+	background-color: white;
+	opacity: 100;
+}
+.hero .form-text h5{
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 3px;
+	line-height: 1.4;
+	color: #FFFFFF;
+}
+.hero .content{
+	overflow: hidden;
+}
+.hero .slider, .hero .slider2, .hero .slider3{
+	overflow: hidden;
+	transition: all 1.7s !important;
+}
+.close{
+	height: 0 !important;
+}
+.follow-us{
+	margin-top: -99rem !important;
+}
+.hero form button{
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	border-color: transparent;
+	color: #D3D3D3;
+}
+.hero form a{
+	color: #D3D3D3;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+}
+.tes, .tes1{
+	margin-top: 18rem;
+}
+/*end hero*/
+
+/*about us*/
+.hero .slider2 h5, .hero .slider3 h5{
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+}
+.hero .slider2 hr{
+	margin-left: -1.5rem;
+}
+.hero .slider2 h6{
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	line-height: 2;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	width: 135%;
+}
+/*end about us*/
+
+/*project*/
+.hero .slider3 button{
+	background-color: transparent;
+	border: transparent;
+}
+.blue{
+	background: #2D7FE0 !important;
+}
+.gray{
+	background: #9F9D9D;
+}
+/*end project*/
