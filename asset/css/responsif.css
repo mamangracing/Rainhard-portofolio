@@ -33,11 +33,11 @@
 	.hero .slider, .hero .slider2, .hero .slider3{
 		height: 274px !important;
 	}
-	.hero .slider2 h5{
+	/*.hero .slider2 h5{
 		width: 43%;
-	}
+	}*/
 	.hero .slider2 .mobile h6{
-		font-size: 14px;
+		font-size: 13px;
 		letter-spacing: 1px;
 		width: 100%;
 	}
@@ -69,6 +69,7 @@
 		height: 11px;
 		width: 15%;
 		padding-inline:	6px;
+		border-radius: 50%;
 	}
 	/*end project*/
 }
@@ -175,10 +176,10 @@
 	}
 	.hero .slider3{
 		margin-top: 0rem;
-		height: 288px !important;
+		height: 290px !important;
 	}
 	.hero .content{
-		height: 304px !important;
+		height: 308px !important;
 	}
 }
 
@@ -248,14 +249,17 @@
 @media only screen and (min-width: 1024px) {
 	
 	/*navbar*/
-	.navbar{
-		margin-top: 3rem;
+	.navbar .container-fluid{
+		margin-top: 5rem;
 	}
 	/*end navbar*/
 
 	/*hero*/
 	.hero{
-		margin-top: 3rem;
+		position: absolute;
+		top: 15%;
+		bottom: 15%;
+		width: 100%;
 	}
 	.hero .content{
 		margin-top: 9rem;
@@ -318,11 +322,11 @@
 
 	/*hero*/
 	.hero .content{
-		margin-top: 6rem;
 		margin-left: 10rem;
+		height: 393px !important;
 	}
 	.hero .img-dekstop{
-		margin-top: -2rem;
+		margin-top: 1rem;
 		margin-left: -4rem;
 	}
 	.hero .slider2{
@@ -344,9 +348,10 @@
 	}
 	.hero .slider h5{
 		font-size: 46px;
+		width: 56%;
 	}
 	.hero .slider2 h5{
-		width: 33%;
+		width: 34%;
 	}
 	.hero .slider hr, .hero .slider3 hr{
 		width: 60px;
@@ -376,32 +381,95 @@
 	.hero .slider3 .project-list h6{
 		font-size: 14px;
 		margin-left: -1rem !important;
-		width: 111% !important;
+		width: 120% !important;
 	}
 	.hero .slider3 .project-list .study-case{
 		margin-left: -2rem;
 	}
 	.hero .project-list .next{
-		height: 15px !important;
-		background: #2D7FE0;
+		height: 13px !important;
 		border-radius: 50%;
 		margin-left: 1rem !important;
 	}
 	.hero .project-list .previous{
-		height: 15px !important;
-		background: #9F9D9D;
+		height: 13px !important;
 		border-radius: 50%;
 	}
 	/*end project*/
-
-	/*footer*/
-	footer{
-		bottom: 0;
-	}
-	/*end footer*/
 }
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media only screen and (min-width: 1400px) {
-
+	.hero .container-fluid{
+		position: absolute;
+		top: 10%;
+		bottom: 10%;
+	}
+	.hero .content{
+		margin-top: 0rem;
+		position: absolute;
+		top: 29%;
+		left: 5%;
+	}
+	.hero .img-dekstop{
+		position: absolute;
+		left: 64%;
+	}
+	.hero .slider2 h5, .hero .slider3 h5{
+		width: 33%;
+	}
 }
+
+@media only screen and (min-width: 1600px){
+	.hero .slider2 h5, .hero .slider3 h5{
+		width: 29%;
+	}
+}
+
+@media only screen and (min-width: 1700px){
+	
+	/*hero*/
+	.hero .slider .row{
+		width: 78%;
+	}
+	.hero .slider h5{
+		width: 67%;
+	}
+	/*end hero*/
+
+	/*about us*/
+	.hero .slider2 h5{
+		margin-left: 1rem;
+	}
+	.hero .slider2 h6{
+		margin-left: 4rem;
+	}
+	/*end about us*/
+
+	/*project*/
+	.hero .slider3 .project-list{
+		margin-left: 5rem;
+	}
+	.hero .project-list .next, .hero .project-list .previous{
+		height: 19px !important;
+	}
+}
+
+@media only screen and (min-width: 1920px){
+	.hero .content, .hero .slider, .hero .slider2, .hero .slider3{
+		height: 450px !important;
+	}
+	.hero .slider2, .hero .slider3{
+		margin-top: 0rem 
+	}
+	.hero .slider2 h5{
+		margin-left: 2rem;
+	}
+	.hero .slider2 h6{
+		margin-left: 5rem;
+	}
+	.hero .slider2 h5, .hero .slider3 h5{
+		width: 24%;
+	}
+}
+

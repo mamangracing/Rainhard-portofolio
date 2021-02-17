@@ -4,6 +4,7 @@ body{
 }
 html,body{
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 
@@ -78,6 +79,12 @@ html,body{
 .hero .slider3 button{
 	background-color: transparent;
 	border: transparent;
+}
+.hero .slider3 .project-list .next{
+	background: #2D7FE0;
+}
+.hero .slider3 .project-list .previous{
+	background: #9F9D9D;
 }
 .blue{
 	background: #2D7FE0 !important;
